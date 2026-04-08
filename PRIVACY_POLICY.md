@@ -7,7 +7,10 @@
 If you have any questions about this Privacy Policy or need support, contact us at:
 
 - navyashreebyregowda@icloud.com
-
+- asad.raza940@gmail.com
+- Gennaro.biagino@gmail.com
+- G.minetti04@gmail.com
+  
 
 ## Overview
 
