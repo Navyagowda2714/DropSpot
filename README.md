@@ -23,6 +23,7 @@
 
 <br/><br/>
 
+<a href="#-getting-started"><b>Getting Started</b></a> •
 <a href="#-project-overview"><b>Overview</b></a> •
 <a href="#-problem-space"><b>Problem</b></a> •
 <a href="#-experience-architecture"><b>Architecture</b></a> •
@@ -32,6 +33,36 @@
 <a href="#-contact"><b>Contact</b></a>
 
 </div>
+
+---
+
+
+<!-- quickstart:start -->
+# 🚀 Getting Started
+
+**Requirements:** macOS with **Xcode 26** or later (iOS 26 SDK) and a physical iPhone with an A12 chip or newer — ARKit, the camera and location do not work in the Simulator.
+
+The Xcode project is stored as `baby.xcodeproj.zip` and expects the sources in a folder named `baby`:
+
+```bash
+git clone https://github.com/Navyagowda2714/DropSpot.git
+cd DropSpot
+unzip baby.xcodeproj.zip
+cp -R dropspot_ baby          # the project file references ./baby
+open baby.xcodeproj
+```
+
+1. Select the **baby** target → *Signing & Capabilities* → choose your own Team.
+2. Connect your iPhone, select it as the run destination and press **⌘R**.
+3. Allow camera and location access when prompted.
+4. If the character images are missing, drag `Assets/BoyCharacter.png` and `Assets/Lady.png` into the project's asset catalog.
+
+| Path | What it is |
+|---|---|
+| `dropspot_/` | App source: AR card placement (RealityKit/ARKit), map tab, camera, persistence |
+| `Assets/` | Character artwork |
+| `baby.xcodeproj.zip` | Zipped Xcode project |
+<!-- quickstart:end -->
 
 ---
 
